@@ -1,4 +1,4 @@
-{{ config(database='h24akshay', schema='devdw') }}
+{{ config(database='h24akshay') }}
 
 SELECT *
 FROM {{ source('devstage', 'products') }}

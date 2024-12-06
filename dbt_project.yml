@@ -5,4 +5,4 @@ config-version: 2
 models:
   analytics:  # Replace with your project name
     +database: h24akshay  # Specify the database name
-    +schema: devdw        # Specify the schema name
+    # +schema: devdw        # Specify the schema name
