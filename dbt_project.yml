@@ -1,0 +1,8 @@
+name: analytics
+version: 1.0
+config-version: 2
+
+models:
+  analytics:
+    devstage: # Source models from the devstage schema
+      materialized: view # Use 'table' if you need persistent tables in devdw
